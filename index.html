@@ -39,10 +39,32 @@ body{
 .book-card:hover{
     transform:translateY(-5px);
 }
+.book-card{
+    border:none;
+    box-shadow:none;
+    background:none;
+}
 
 .book-card img{
-    height:280px;
+    height:220px;
+    width:150px;
     object-fit:cover;
+    display:block;
+    margin:auto;
+    border-radius:6px;
+    transition:0.3s;
+}
+
+.book-card img:hover{
+    transform:scale(1.05);
+}
+
+.card-body{
+    padding:8px;
+}
+
+.card-body b{
+    font-size:14px;
 }
 
 footer{
